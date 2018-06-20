@@ -114,20 +114,20 @@ $('.a-slides').slick({
 });
 
 // Map
-var mapObj = new GMaps({
-  el: '#map',
-  lat: 38.222669,
-  lng: -122.128777
-});
-var m = mapObj.addMarker({
-  lat: 38.222669,
-  lng: -122.128777,
-  title: 'Exit 41',
-  infoWindow: {
-    content: '<h4>Exit 41</div>',
-    maxWidth: 100
-  }
-});
+// var mapObj = new GMaps({
+//   el: '#map',
+//   lat: 38.222669,
+//   lng: -122.128777
+// });
+// var m = mapObj.addMarker({
+//   lat: 38.222669,
+//   lng: -122.128777,
+//   title: 'Exit 41',
+//   infoWindow: {
+//     content: '<h4>Exit 41</div>',
+//     maxWidth: 100
+//   }
+// });
 
 // Slider
   $('.p-slider').slick({
